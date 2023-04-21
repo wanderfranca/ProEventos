@@ -3,7 +3,9 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "tslib" : ["path/to/node_modules/tslib/tslib.d.ts"]
+      "tslib" : ["path/to/node_modules/tslib/tslib.d.ts"],
+      "@app/*":["src/app/*"],
+      "@environments/*":["src/environments/*"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -30,7 +32,8 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "strictPropertyInitialization": false,
   }
 
 }
