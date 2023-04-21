@@ -12,6 +12,8 @@ import { Evento } from '../../models/Evento';
   // providers: [EventoService]
 })
 export class EventosComponent implements OnInit {
+  ngOnInit(): void {
 
+  }
 }
 
