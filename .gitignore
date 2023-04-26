@@ -493,3 +493,9 @@ Thumbs.db
 *.db
 *.db-shm
 *.db-wal
+
+# Angular cache
+/.angula
+/.angular/cache
+/.vscode
+
