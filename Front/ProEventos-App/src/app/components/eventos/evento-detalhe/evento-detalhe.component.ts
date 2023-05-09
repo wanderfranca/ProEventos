@@ -9,7 +9,6 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 export class EventoDetalheComponent implements OnInit {
 
   form!: FormGroup;
-  constructor() { }
 
   ngOnInit(): void {
     this.validation();
@@ -20,7 +19,6 @@ export class EventoDetalheComponent implements OnInit {
 
       tema: new FormControl('',
 
-      [Validators.required, Validators.minLength(4), Validators.maxLength(50)]),
 
       local: new FormControl('', Validators.required),
 
