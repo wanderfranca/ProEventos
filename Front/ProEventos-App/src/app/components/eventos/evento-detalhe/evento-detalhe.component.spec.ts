@@ -9,12 +9,12 @@ describe('EventoDetalheComponent', () => {
   let component: EventoDetalheComponent;
   let fixture: ComponentFixture<EventoDetalheComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
       declarations: [ EventoDetalheComponent ]
     })
     .compileComponents();
-  }));
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(EventoDetalheComponent);
