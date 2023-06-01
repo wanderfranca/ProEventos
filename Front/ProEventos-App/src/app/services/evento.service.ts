@@ -41,7 +41,4 @@ constructor(private http: HttpClient) { }
   }
 
 }
-function take(arg0: number): import("rxjs").OperatorFunction<Evento[], Evento[]> {
-  throw new Error('Function not implemented.');
 }
-
